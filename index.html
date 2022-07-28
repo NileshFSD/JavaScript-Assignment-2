@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="JavaScript_Assignment_2" content="JavaScript_Assignment_2" />
+    <title>JavaScript_Assignment_2</title>
+  </head>
+  <body>
+    <h1>JavaScript_Assignment_2</h1>
+    <p>Date:- 27-07-22</p>
+
+    <script>
+      // 1. Display a message as ‘Welcome to JavaScript’ using alert(), console.log() and document.write().------------------------------
+
+      //Ans:-1
+      //   let Display = "Welcome to JavaScript";
+      //   alert(Display);
+      //   console.log(Display);
+      //   document.write(Display);
+
+      //2.Show an alert as ‘This is from external JavaScript’ from external js file.
+      //Ans:-2
+      //   alert("This is from external JavaScript");
+
+      //3.Declare the following variables userId, firstName, lastName, password, email, gender, age
+      // (as variable constant), accountCreated (as variable constant) and assign the values and
+      // display the same as alert, in console and in html document.
+
+      // const accountCreated = {
+      //   firstName: "John",
+      //   lastName: "Smith",
+      //   email: "jsmith874@gmail.com",
+      //   gender: "Male",
+      //   age: 24,
+      //   password: "************",
+      // };
+
+      // console.log(accountCreated);
+
+      // for (const prop in accountCreated) {
+      //   document.write(`${prop} : ${accountCreated[prop]}`);
+      //   document.write("<br>");
+      // }
+
+      // for (const prop in accountCreated) {
+      //   alert(`${prop} : ${accountCreated[prop]}`);
+      // }
+
+      // 4. Create the variables for storing the product details with appropriate variable names and
+      // display the result in html document.
+
+      // const store = {
+      //   soap: {
+      //     BrandName: "Dettol",
+      //     weight: "75gm",
+      //     price: 45,
+      //   },
+
+      //   Shampoo: {
+      //     BrandName: "Dove",
+      //     weight: "100ml",
+      //     price: 130,
+      //   },
+
+      //   Deo: {
+      //     BrandName: "WildStone",
+      //     weight: "100ml",
+      //     price: 330,
+      //   },
+      // };
+
+      // for (const prop in store.soap) {
+      //   document.write(`${prop} : ${store.soap[prop]}`);
+      //   document.write("<br>");
+      // }
+      // document.write("<br>");
+
+      // for (const prop in store.Shampoo) {
+      //   document.write(`${prop} : ${store.Shampoo[prop]}`);
+      //   document.write("<br>");
+      // }
+      // document.write("<br>");
+
+      // for (const prop in store.Deo) {
+      //   document.write(`${prop} : ${store.Deo[prop]}`);
+      //   document.write("<br>");
+      // }
+
+      // 5. Create a function named user() with properties userId, firstName, lastName, password, email,
+      // gender, age, accountCreated. Call the function user() by passing the value for userId,
+      // firstName, lastName, password, email, gender, age, accountCreated as arguments and display
+      // the assigned value in console.
+
+      // function user(
+      //   userId,
+      //   firstName,
+      //   lastName,
+      //   password,
+      //   email,
+      //   gender,
+      //   age,
+      //   accountCreated
+      // ) {
+      //   return {
+      //     userId: userId,
+      //     firstName: firstName,
+      //     lastName: lastName,
+      //     password: password,
+      //     email: email,
+      //     gender: gender,
+      //     age: age,
+      //     accountCreated: accountCreated,
+      //   };
+      // }
+
+      // let result = user(
+      //   "john50",
+      //   "John",
+      //   "Rock",
+      //   "*********",
+      //   "jrock567@yahoo.com",
+      //   "Male",
+      //   27,
+      //   "25-Apr-22"
+      // );
+      // console.log(result);
+
+      // 6. Repeat the task mentioned in Question No. 5 using function expression.
+
+      // let user = function (
+      //   userId,
+      //   firstName,
+      //   lastName,
+      //   password,
+      //   email,
+      //   gender,
+      //   age,
+      //   accountCreated
+      // ) {
+      //   return {
+      //     userId: userId,
+      //     firstName: firstName,
+      //     lastName: lastName,
+      //     password: password,
+      //     email: email,
+      //     gender: gender,
+      //     age: age,
+      //     accountCreated: accountCreated,
+      //   };
+      // };
+
+      // let result = user(
+      //   "john50",
+      //   "John",
+      //   "Rock",
+      //   "*********",
+      //   "jrock567@yahoo.com",
+      //   "Male",
+      //   27,
+      //   "25-Apr-22"
+      // );
+      // console.log(result);
+
+      // 7. Repeat the task mentioned in Question No. 5 using arrow function.-----------------------------------------------------------
+
+      // let user = (
+      //   userId,
+      //   firstName,
+      //   lastName,
+      //   password,
+      //   email,
+      //   gender,
+      //   age,
+      //   accountCreated
+      // ) => {
+      //   return {
+      //     userId: userId,
+      //     firstName: firstName,
+      //     lastName: lastName,
+      //     password: password,
+      //     email: email,
+      //     gender: gender,
+      //     age: age,
+      //     accountCreated: accountCreated,
+      //   };
+      // };
+
+      // let result = user(
+      //   "john50",
+      //   "John",
+      //   "Rock",
+      //   "*********",
+      //   "jrock567@yahoo.com",
+      //   "Male",
+      //   27,
+      //   "25-Apr-22"
+      // );
+      // console.log(result);
+
+      // 8. Create an object named ‘user’ and do the following operations.
+      // a. Add the properties userId, firstName, lastName, password, country, continent and
+      // display all the property’s value.
+      // b. Delete the properties country, continent and display all the property’s value present in
+      // ‘user’ object.
+      // c. Display all the values present in ‘user’ object using for loop.
+
+      // //a.
+      // const user = {
+      //   userId: "JR9984C",
+      //   firstName: "Jack",
+      //   lastName: "Robert",
+      //   password: "********",
+      //   country: "Brazil",
+      //   continent: "South Africa",
+      // };
+
+      // //b.
+      // delete user.country;
+      // delete user.continent;
+
+      // //c.
+      // console.log(user);
+    </script>
+  </body>
+</html>
